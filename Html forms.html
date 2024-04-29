@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML Form Example-Mozilla firexfox</title>
+  </head>
+  <body>
+    <h1></h1>
+    <fieldset>
+    <legend>Academic information</legend>
+  <label for="referrer">Degree
+    <select id="referrer" name="referrer">
+      <option value="">Master of Business Administration </option>
+      <option value="1"> master 1</option>
+      <option value="2">master2</option>
+      <option value="3">master3</option>
+      <option value="4">Other</option>
+    </select>
+  </label><br>
+  <label for="first-name">Student ID <input id="first-name" name="first-name" type="text" required /></label><br>
+  <div style="display: flex;gap: 1em;">
+  <label>Class attended 
+  </label>
+  <span>
+    <div style="width: fit-content;height: 70px;overflow-y: auto;border: 1px solid;">
+      <ul style="list-style: none;text-align: left;margin: 0;padding: 10px;">
+        <li style="list-style: none;text-align: left;">Geography</li>
+        <li>physics</li>
+        <li>Mathematics</li>
+        <li>English</li>
+        <li>Chemistry</li>
+      </ul>
+    </div>
+  </span>
+</div>
+  </fieldset>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <label for="First Name">First Name: <input id="First Name" name="First Name" type="text" required /></label><br>
+        <label for="last-name">last-name:  <input id="last-name" name="last-name" type="text"required /></label><br>
+        <label>Gender</label>
+        <label for="Male"><input id="Male" type="radio" name="Male" class="inline" checked /> Male</label>
+        <label for="Female"><input id="Female" type="radio" name="Female" class="inline" /> Female</label><br>
+        <label for="email">Email: <input id="email" name="email" type="email" required /></label>
+        </fieldset>
+      <fieldset>
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder= "TERMS AND CONDITION..."></textarea>
+        </label><br>
+      <input style="background-color:darkgray" panding="5px" type="Send Form" value="Send Form" />
+      <input style="background-color:darkgray" panding="5px" type="Clear Form" value="Clear Form" />
+    </form>
+  </body>
+</html>
